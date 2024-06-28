@@ -1,0 +1,19 @@
+{
+  "name":"AfterClass-13",
+  "version":"1.0.01",
+  "description": "Este es el after class n 3",
+
+  "script":{
+
+  },
+  
+  "dependencies": {
+    "bootstrap": "^5.3.3"
+  },
+
+  "devDependencies": {
+
+  }
+
+
+}
