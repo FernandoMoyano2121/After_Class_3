@@ -1,14 +1,25 @@
-@import "./base/media-queries";
 @import "./base/reset";
 @import "./components/galeria";
+@import "./base/media-queries";
 
-// Custom.scss
-// Option A: Include all of Bootstrap
+//bg-body-tertiary(color de fondo de Bootstrap)
+$gray-100: #155e2d;
 
-// Include any default variable overrides here (though functions won't be available)
+//color de los enlaces:
+$navbar-light-color: #ffffff;
+$navbar-light-icon-color: #ffffff;
 
-$gray-100: #124d16;
+//color de los enlaces al hacer hover
+$navbar-light-hover-color: #000000;
 
-@import "../node_modules/bootstrap/scss/bootstrap";
+/* ancho del borde del menu hamburguesa al hacerle click (focus) */
+$focus-ring-width: 0.04rem;
 
-// Then add additional custom code here
+/* color del ancho de borde del menu hamburguesa desactivado */
+$navbar-light-toggler-border-color: #ffff;
+$navbar-light-toggler-border-color: none;
+
+/* color de la marca (brand) */
+$navbar-light-brand-color: #ffff;
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
