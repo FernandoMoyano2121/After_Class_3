@@ -1,0 +1,43 @@
+/*=============================================
+=                   Responsive Tablet         =
+=============================================*/
+
+@media (max-width: 992px) {
+  .gallery {
+    max-width: 950px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .gallery__item--9 {
+    grid-column: span 2;
+  }
+}
+
+/*=============================================
+=                   Responsive mobil           =
+=============================================*/
+
+@media (max-width: 992px) {
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
+    margin: 30px;
+  }
+
+  .gallery__item--1 {
+    grid-column: span 2;
+    grid-row: span 1;
+  }
+
+  .gallery__item--2 {
+    grid-column: span 2;
+    grid-row: span 1;
+  }
+  .gallery__item--5 {
+    grid-column: span 2;
+    grid-row: span 1;
+  }
+
+  .gallery__item--9 {
+    grid-column: span 2;
+  }
+}
